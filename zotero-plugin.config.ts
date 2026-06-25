@@ -1,7 +1,6 @@
-import { defineConfig } from "zotero-plugin-scaffold";
-import pkg from "./package.json";
+﻿import pkg from "./package.json";
 
-export default defineConfig({
+export default {
   source: ["src", "addon"],
   dist: ".scaffold/build",
   name: pkg.config.addonName,
@@ -45,4 +44,5 @@ export default defineConfig({
 
   // If you need to see a more detailed log, uncomment the following line:
   // logLevel: "trace",
-});
+};
+
