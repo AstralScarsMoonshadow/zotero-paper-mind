@@ -175,10 +175,6 @@ node_modules/
 
 API keys and local caches should remain private.
 
-## Notes
-
-This project does not use a ChatGPT Plus subscription as a backend. ChatGPT Plus and API access are separate systems. The plugin currently works through configurable API endpoints.
-
 ## License
 
 AGPL-3.0-or-later
