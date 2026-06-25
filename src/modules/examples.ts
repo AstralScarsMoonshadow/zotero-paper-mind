@@ -1,4 +1,4 @@
-import { getLocaleID, getString } from "../utils/locale";
+﻿import { getLocaleID, getString } from "../utils/locale";
 
 function example(
   target: any,
@@ -213,7 +213,7 @@ export class UIExampleFactory {
         const span = doc.createElement("span");
         span.className = `cell ${column.className}`;
         span.style.background = "#0dd068";
-        span.innerText = "⭐" + data;
+        span.innerText = "[info] " + data;
         return span;
       },
     });
@@ -864,3 +864,4 @@ export class HelperExampleFactory {
     ztoolkit.getGlobal("alert")("See src/modules/preferenceScript.ts");
   }
 }
+

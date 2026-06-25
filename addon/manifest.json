@@ -1,8 +1,8 @@
-{
+﻿{
   "manifest_version": 2,
-  "name": "__addonName__",
+  "name": "Paper Assistant",
   "version": "__buildVersion__",
-  "description": "__description__",
+  "description": "AI paper reading assistant for Zotero",
   "homepage_url": "__homepage__",
   "author": "__author__",
   "icons": {
@@ -11,10 +11,11 @@
   },
   "applications": {
     "zotero": {
-      "id": "__addonID__",
+      "id": "paper-assistant@astralscarsmoonshadow",
       "update_url": "__updateURL__",
-      "strict_min_version": "6.999",
-      "strict_max_version": "8.*"
+      "strict_min_version": "9.0",
+      "strict_max_version": "9.*"
     }
   }
 }
+

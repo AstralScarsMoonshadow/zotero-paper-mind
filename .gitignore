@@ -1,16 +1,25 @@
-# dot files
-.DS_Store
+﻿
+# dependencies
+node_modules/
 
-# Node.js
-node_modules
-pnpm-lock.yaml
-yarn.lock
+# build outputs
+.scaffold/build/
+.scaffold/profile/
+dist/
+build/
+*.xpi
+*.log
 
-# TSC
-tsconfig.tsbuildinfo
-
-# Scaffold
+# local env
 .env
-.scaffold
-build
-logs
+.env.local
+
+# cache
+PaperAssistantCache/
+
+# local backups / temporary files
+*.bak
+*.bak.*
+*.filecache
+*.tsbuildinfo
+package.json.bak

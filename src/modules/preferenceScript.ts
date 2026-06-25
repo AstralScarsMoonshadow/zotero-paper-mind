@@ -1,4 +1,4 @@
-import { config } from "../../package.json";
+﻿import { config } from "../../package.json";
 import { getString } from "../utils/locale";
 
 export async function registerPrefsScripts(_window: Window) {
@@ -129,3 +129,4 @@ function bindPrefEvents() {
       );
     });
 }
+
